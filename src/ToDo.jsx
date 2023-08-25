@@ -28,7 +28,7 @@ function ToDo(){
                 <input id="data" type="text" placeholder="Write To Do Items"/>
                 <button type="submit">Submit</button>
             </form>
-            <ul>{toDoList}</ul>
+            <ol>{toDoList}</ol>
         </div>
     )
 }

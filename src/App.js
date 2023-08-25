@@ -5,10 +5,10 @@ import ToDo from './ToDo'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <main className="App-header">
+        <p>Click the button to save the changes</p>
         <ToDo />
-      </header>
+      </main>
     </div>
   );
 }
