@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import ToDo from './ToDo'
+import React from 'react'
+import Navbar from './Navbar';
+import Descritpion from './Description';
 
 function App() {
   return (
-    <div className="App">
-      <main className="App-header">
-        <p>Click the button to save the changes</p>
-        <ToDo />
-      </main>
+    <div>
+      <Navbar />
+      <Descritpion />
     </div>
   );
 }
